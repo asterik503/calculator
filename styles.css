@@ -27,6 +27,7 @@ body {
     border-radius: 15px;
     box-sizing: content-box;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 body > * {
@@ -74,11 +75,18 @@ button {
     background-color: #003f88;
 }
 
-.screen {
+.screener {
     border: 10px #a5be00 double;
-    height: 100%;
-    font-size: 40px;
+    height: 20%;
     align-content: center;
     text-align: right;
     padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    text-wrap: wrap;
+}
+
+p {
+    word-wrap: break-word;
+    font-size: 30px;
 }
